@@ -1,0 +1,40 @@
+/* Apply a modern style to the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #0074e4; /* Change this to your desired background color */
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the logo on the left corner */
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+/* Style the navigation links on the right */
+.modern-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.modern-navbar li {
+  margin: 10px;
+}
+
+.modern-navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif; /* Change the font to 'Outfit' or any desired font */
+}
+
+.modern-navbar a:hover {
+  text-decoration: underline;
+}
